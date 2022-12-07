@@ -10,7 +10,7 @@ public class TesteMap {
         nomesParaIdade.put("Paulo", 31);
         nomesParaIdade.put("Adriano", 25);
         nomesParaIdade.put("Alberto", 33);
-        nomesParaIdade.put("Gui", 26);
+        nomesParaIdade.put("Guilherme", 26);
 
         Set<String> chaves = nomesParaIdade.keySet();
         chaves.stream().sorted().forEach(System.out::println);
